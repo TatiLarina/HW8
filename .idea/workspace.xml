@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="949c5dd6-1161-4ccb-9170-4614615bd1c7" name="Changes" comment="verify">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/statistic/StatisticsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/statistic/StatisticsServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,22 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.StatisticsServiceTest">
+    <configuration name="StatisticsServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.statistic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.statistic" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.statistic.StatisticsServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StatisticsServiceTest.findMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW8" />
       <extension name="coverage">
@@ -67,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatisticsServiceTest" />
         <item itemvalue="JUnit.StatisticsServiceTest.findMax" />
       </list>
     </recent_temporary>
@@ -108,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667149403278</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="verify">
+      <created>1667150024307</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667150024307</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
